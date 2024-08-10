@@ -23,9 +23,9 @@ class SSHApp(App):
             width=200,
             height=40
         )
-        self.password_layout.add_widget(Label(size_hint=(None, None), width=100))  # Отступ слева
+        self.password_layout.add_widget(Label(size_hint=(None, None), width=100))
         self.password_layout.add_widget(self.password_input)
-        self.password_layout.add_widget(Label(size_hint=(None, None), width=100))  # Отступ справа
+        self.password_layout.add_widget(Label(size_hint=(None, None), width=100))
 
         self.layout.add_widget(self.password_layout)
 
